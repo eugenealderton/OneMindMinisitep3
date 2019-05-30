@@ -1,0 +1,257 @@
+/* Universal data for css sheet */
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* Main website structure */
+body {
+  line-height: 30px;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+div {
+  padding: 5px;
+  border: 5px;
+  margin: 5px;
+}
+
+h1, h2, h3, h4, h5, h6
+.heading {
+	color: #173ab5;
+	font-weight: bold;
+}
+
+/* Header Structure */
+.header {
+  text-align: center;
+  Background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+}
+
+.headerbox {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+
+/* Main Site Internal Business Content */
+.sitenav {
+  overflow: hidden;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: right;
+  width: 100%;
+}
+
+.sitenav a {
+  color: #4196f1;
+  padding: 1px 15px 1px 15px;
+  display: inline-block;
+  float: right;
+}
+
+/*Image Inserts*/
+.time_inventory, .resources {
+  float: left;
+  width: 280px;
+  height: 150px;
+}
+
+/* Main Site Content Information Navigation*/
+.headernav {
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.navbox {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+  Background-color: #333;
+}
+
+.topnav {
+  overflow: hidden;
+  margin: 0;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.topnav a {
+  color: #4196f1;
+  padding: 1px 15px 1px 15px;
+  font-size: 17px;
+  display: inline-block;
+  float: left;
+}
+
+/* Main Body of Content Style */
+.body_container {
+  font-size: 20px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 0px;
+  padding: 0px;
+}
+
+.content1, .content2, .content3, .sidecontent1, .sidecontent2 {
+  background-color: rgba(14, 98, 190, 0.2);
+  background-opacity: .1;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+
+.pagelogo {
+  flex: auto;
+  width: 68%;
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+/* Current Page Title Informing User of Page */
+.pagetitle, .pageheader {
+  text-align: left;
+  width: 100%;
+  color: #4646d2;
+  padding-left: 25px;
+}
+
+/* Main Content for Page, Stays on Left Side */
+.info {
+  float: left;
+  width: 68%;
+}
+
+/* Sidebar Used for Navigation / Links to Examples Relating to Main Content */
+.sidebar {
+  float: right;
+  width: 30%;
+}
+
+.sidenav {
+  width: 100%;
+  border-top: 1px solid #1f30b6;
+  border-bottom: 1px solid #1f30b6;
+  margin: 5px 0px 10px 0px;
+}
+
+.sidenav a {
+  color: black;
+  display: block;
+  height: 40px;
+}
+
+.subheader1, .subheader2, .subheader3 {
+  font-size: 14px
+}
+
+.subheader1 a {
+  background-color: rgba(14, 98, 190, 0.2);
+}
+
+/* Footer Structure */
+.footer {
+  text-align: center;
+  Background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  display: inline-block;
+}
+
+.footerbox {
+  display: block;
+  margin: 0 auto;
+  border: 0px;
+  padding: 0px;
+  width: 1000px;
+  position: relative;
+}
+
+.footernav {
+  width: 30%;
+  color: #4196f1;
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
+.footernav a {
+  width: 100%;
+  color: #4196f1;
+  text-align: center;
+  display: inline-block;
+  height:48px;
+}
+
+.contactinfo {
+  width: 30%;
+  color: #4196f1;
+  float: left;
+}
+
+.contactinfo p {
+  margin: 0px;
+  border: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.extra {
+  width: 30%;
+  color: #c8aef3;
+  display: inline-block;
+  float: right;
+}
+
+.contactinfo p {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+/*Navigation Look */
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgba(14, 98, 190, 0.2);
+  color: black;
+}
+.sitenav a:hover, .topnav a:hover, .footernav a:hover {
+  background-color: white;
+  border-radius: 25px;
+  color: #4196f1;
+}
